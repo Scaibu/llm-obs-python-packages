@@ -1,0 +1,64 @@
+[submodule "alert-engine"]
+	path = alert-engine
+	url = https://github.com/Chief-Strategist-J/llm-obs-alert-engine.git
+	branch = main
+[submodule "budget-provisioner"]
+	path = budget-provisioner
+	url = https://github.com/Chief-Strategist-J/llm-obs-budget-provisioner.git
+	branch = main
+[submodule "event-cost"]
+	path = event-cost
+	url = https://github.com/Chief-Strategist-J/llm-obs-event-cost.git
+	branch = main
+[submodule "faithfulness"]
+	path = faithfulness
+	url = https://github.com/Chief-Strategist-J/llm-obs-faithfulness.git
+	branch = main
+[submodule "forecast-worker"]
+	path = forecast-worker
+	url = https://github.com/Chief-Strategist-J/llm-obs-forecast-worker.git
+	branch = main
+[submodule "instrumentation-sdk"]
+	path = instrumentation-sdk
+	url = https://github.com/Chief-Strategist-J/llm-obs-instrumentation-sdk.git
+	branch = main
+[submodule "latency-engine"]
+	path = latency-engine
+	url = https://github.com/Chief-Strategist-J/llm-obs-latency-engine.git
+	branch = main
+[submodule "nli-worker"]
+	path = nli-worker
+	url = https://github.com/Chief-Strategist-J/llm-obs-nli-worker.git
+	branch = main
+[submodule "perplexity"]
+	path = perplexity
+	url = https://github.com/Chief-Strategist-J/llm-obs-perplexity.git
+	branch = main
+[submodule "python-shared"]
+	path = python-shared
+	url = https://github.com/Chief-Strategist-J/llm-obs-python-shared.git
+	branch = main
+[submodule "quality-engine"]
+	path = quality-engine
+	url = https://github.com/Chief-Strategist-J/llm-obs-quality-engine.git
+	branch = main
+[submodule "queue-embedding-worker"]
+	path = queue-embedding-worker
+	url = https://github.com/Chief-Strategist-J/llm-obs-queue-embedding-worker.git
+	branch = main
+[submodule "semantic-coherence"]
+	path = semantic-coherence
+	url = https://github.com/Chief-Strategist-J/llm-obs-semantic-coherence.git
+	branch = main
+[submodule "slo-burn-worker"]
+	path = slo-burn-worker
+	url = https://github.com/Chief-Strategist-J/llm-obs-slo-burn-worker.git
+	branch = main
+[submodule "temporal-ewma-worker"]
+	path = temporal-ewma-worker
+	url = https://github.com/Chief-Strategist-J/llm-obs-temporal-ewma-worker.git
+	branch = main
+[submodule "toxicity"]
+	path = toxicity
+	url = https://github.com/Chief-Strategist-J/llm-obs-toxicity.git
+	branch = main
