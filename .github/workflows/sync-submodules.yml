@@ -2,8 +2,8 @@ name: Sync Submodules to Main
 
 on:
   schedule:
-    # Run every hour
-    - cron: '0 * * * *'
+    # Run once every 2 days at midnight UTC to conserve GitHub Actions minutes
+    - cron: '0 0 */2 * *'
   workflow_dispatch:
   repository_dispatch:
     types: [submodule-update]
@@ -39,6 +39,7 @@ jobs:
           else
             echo "Submodules updated. Committing and pushing changes..."
             git add .gitmodules
+            git submodule foreach 'git rev-parse HEAD'
             git commit -am "chore(submodules): auto-sync submodules to latest main [skip ci]"
             git push origin main
           fi
