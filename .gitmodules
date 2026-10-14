@@ -62,3 +62,7 @@
 	path = toxicity
 	url = https://github.com/Chief-Strategist-J/llm-obs-toxicity.git
 	branch = main
+[submodule "policies"]
+	path = policies
+	url = https://github.com/Scaibu/llm-obs-policies.git
+	branch = main
