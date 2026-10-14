@@ -66,3 +66,7 @@
 	path = policies
 	url = https://github.com/Scaibu/llm-obs-policies.git
 	branch = main
+[submodule "neural-network-design"]
+	path = neural-network-design
+	url = https://github.com/Chief-Strategist-J/llm-obs-neural-network-design.git
+	branch = main
